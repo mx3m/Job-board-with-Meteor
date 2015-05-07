@@ -1,0 +1,14 @@
+<template name="postSingle">
+  <div class="card">
+    <h2 class="post-title"><a href="{{addHttp url}}" target="_blank">{{title}}</a></h2>
+    <span class="text-muted">{{company}} - {{date}}</span>
+    <section class="post-section">
+      <h5 class="section-title">Description</h5>
+      <p class="post-content-text">{{description}}</p>
+    </section>
+    <section class="post-section">
+      <h5 class="section-title">Learn More</h5>
+      <a href="{{addHttp url}}" class="btn btn-primary">Learn more about this job</a>
+    </section>
+  </div>
+</template>

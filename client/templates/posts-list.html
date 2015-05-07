@@ -1,0 +1,8 @@
+<template name="postsList">
+  {{#unless currentUser}}
+  <div class="alert alert-info" role="alert">Do you want to submit a new job offer? It's free and just require a quick sign up.</div>
+  {{/unless}}
+  {{#each posts}}
+    {{> postItem}}
+  {{/each}}
+</template>
